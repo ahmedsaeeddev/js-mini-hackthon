@@ -1,0 +1,36 @@
+.profileImg{
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+    border-radius: 100%;
+    border: 2px solid white;
+}
+.btn{
+    background-color: black;
+}
+.logOut:hover{
+    cursor: pointer;
+}
+
+/* scroll */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.main form {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+}
+
+form input, textarea {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 10px;
+}
